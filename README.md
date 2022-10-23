@@ -24,18 +24,14 @@ This project was created to segment customers in order to build a business strat
 2. Submit for run the model
 ```
 
-## Authors
+## Authors Hacktive8 001-HCK Group 1
 
-Contributors names and contact info
+Contributors names
 
 1. Ferry Marcellus Suhendra 
-email. [@Ferry]
 2. Hedy Fernando
-email.[@Hedy](hedy.fernando7@gmail.com)
 3. Naomi Amelia
-email.[@Naomi]
 4. Raihan Rafif
-email.[@Raihan]
 
 ## Version History
 
