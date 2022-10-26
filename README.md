@@ -1,6 +1,5 @@
-# Project Title
-
-Customer-info Integration with Product Recommendation System (CITER)
+# CITER
+## Customer-info Integration with Product Recommendation System
 
 ## Description
 
