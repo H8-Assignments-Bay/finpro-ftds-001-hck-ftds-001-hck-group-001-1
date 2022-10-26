@@ -7,6 +7,7 @@ import pickle
 import os
 from sklearn.metrics.pairwise import cosine_similarity
 
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 prod_vec_s = pd.read_csv('prod_vec_s.csv')
 
@@ -23,8 +24,8 @@ if st.button('Submit'):
 
     x = pd.DataFrame([[recency, frequency, monetary]],
     columns = ['recency', 'frequency', 'monetary'])
-
-    pred = model.predict(x)
+    xs = scaler.transform(x)
+    pred = model.predict(xs)
 
     if pred == 2:
         prediction = 'Loyal Customers'
@@ -71,7 +72,7 @@ if st.button('Recommend'):
 
     x = pd.DataFrame([[recency, frequency, monetary]],
     columns = ['recency', 'frequency', 'monetary'])
-
-    pred = model.predict(x)
+    xs = scaler.transform(x)
+    pred = model.predict(xs)
     if uploaded_img != None:
         fetch_most_similar_products(image_name,(pred*10))
