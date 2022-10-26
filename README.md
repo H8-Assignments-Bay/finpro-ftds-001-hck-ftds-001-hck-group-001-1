@@ -1,28 +1,26 @@
 # Project Title
 
-Customer Segmentation and Content Based Recomendation
+Customer-info Integration with Product Recommendation System (CITER)
 
 ## Description
 
-This project was created to segment customers in order to build a business strategy in the e-commerce field and provide product recommendations to increase sales.
+Customer loyalty is crucial for the survival of any kinds of commerce, particularly the e-commerce which undergoes exponential growth these past few years. Thus, the need of an analysis tool to gain knowledge of customer behaviour and to do certain demeanor towards the customers. One of the analysis tool to gain this knowledge is the RFM (Recency, Frequency and Monetary) where we can group the customers into their recency (the latest occurance of purchase), frequency (the number of times a customer make a purchase in the store) and their monetary (the amount of spending each customer undergoes in each purchases). 
 
-## Getting Started
+Other than that, we can also gain knowledge regarding our products and how they perform with our customers since we need them to stay loyal to our store by purchasing the right products. Thus, the need of a recommendation system is also crucial in the survival of our store. 
 
+## Objective
 
-### Model Name
+From the overview above, we can then derive objectives which will be used to shape our overall analysis and problem solving
 
-* RFM
-* Similarity-based Image Recommendation
-* Kmeans for Clustering
+1. Create customer segmentation modelling 
+2. Create product segmentation modelling
+3. Create product recommendation system 
 
-### Executing program
+### Model Built
 
-* How to Model works
-* Step-by-step bullets
-```
-1. Input values on website
-2. Submit for run the model
-```
+* RFM (Recency, Frequency, and Monetary)
+* Cosine Similarity for Product Recommendation
+* Kmeans Clustering for Segmenting Customer and Product
 
 ## Authors Hacktive8 001-HCK Group 1
 
